@@ -16,6 +16,8 @@
 #include <string>
 #include <vector>
 
+#define DISKMON_VERSION "1.0.2"
+
 static const int   HISTORY_MAX  = 60;   // points kept in the graph
 static const long  SECTOR_BYTES = 512;  // /proc/diskstats counts 512B sectors
 
@@ -440,7 +442,7 @@ static void show_about(GtkWidget *, gpointer data) {
     GtkWidget *dialog = gtk_about_dialog_new();
     GtkAboutDialog *ad = GTK_ABOUT_DIALOG(dialog);
     gtk_about_dialog_set_program_name(ad, "Disk Monitor");
-    gtk_about_dialog_set_version(ad, "1.0.0");
+    gtk_about_dialog_set_version(ad, DISKMON_VERSION);
     gtk_about_dialog_set_comments(ad,
         "Real-time disk I/O monitor for Linux.\n"
         "Live read/write throughput, peaks and session averages.");
