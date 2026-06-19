@@ -1,6 +1,6 @@
 <div align="center">
 
-# Disk Monitor
+<a href="https://github.com/effjy/diskmon/"><img src="titles/diskmon-title.svg" height="52" alt="DISKMON"></a>
 
 **A real-time disk I/O monitor for Linux — written in C++ with a GTK4 interface
 and a Tokyo Night dark theme.**
