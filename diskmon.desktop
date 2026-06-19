@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Disk Monitor
+Comment=Real-time disk I/O throughput monitor
+Exec=diskmon
+Icon=diskmon
+Terminal=false
+Type=Application
+Categories=System;Monitor;GTK;
+StartupNotify=true
+Keywords=disk;io;throughput;read;write;monitor;storage;nvme;ssd;
