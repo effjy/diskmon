@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="25%" r="90%">
+      <stop offset="0%" stop-color="#2a2f45"/>
+      <stop offset="55%" stop-color="#1a1b26"/>
+      <stop offset="100%" stop-color="#16161e"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="100%" stop-color="#5a7fe0"/>
+    </linearGradient>
+    <linearGradient id="rd" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#9ece6a" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#9ece6a"/>
+    </linearGradient>
+    <linearGradient id="wr" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f7768e" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#f7768e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)" stroke="#7aa2f7" stroke-opacity="0.25" stroke-width="2"/>
+
+  <!-- platter ring -->
+  <circle cx="128" cy="116" r="62" fill="none" stroke="url(#ring)" stroke-width="9" stroke-opacity="0.9"/>
+  <circle cx="128" cy="116" r="44" fill="none" stroke="#414868" stroke-width="3"/>
+  <circle cx="128" cy="116" r="10" fill="#7aa2f7"/>
+  <!-- read/write arm -->
+  <path d="M128 116 L188 70" stroke="#c0caf5" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="188" cy="70" r="6" fill="#bb9af7"/>
+
+  <!-- throughput sparkline -->
+  <path d="M44 214 L70 196 L92 206 L114 178 L138 190 L160 162 L186 176 L212 150 L212 222 L44 222 Z" fill="url(#rd)" opacity="0.55"/>
+  <path d="M44 214 L70 196 L92 206 L114 178 L138 190 L160 162 L186 176 L212 150" fill="none" stroke="#9ece6a" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M44 226 L70 214 L92 220 L114 204 L138 212 L160 196 L186 206 L212 188" fill="none" stroke="#f7768e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+</svg>
